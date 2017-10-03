@@ -26,3 +26,6 @@ g cn-pool.top 绑定您的服务器的域名
 以太（ETH）:0xad5cb6036b47b13842fd6d8dca00df098d16024f
 莱特币：LfHJ1yk5ot5GMBkaKN44NEKai8Zq8Jpks2
 零币：t1LvAoYHL9Dfw5zQQkELqaUaa4cYySmYjDq
+
+end
+end
