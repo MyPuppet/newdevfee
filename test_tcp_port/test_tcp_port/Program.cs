@@ -12,14 +12,13 @@ namespace PortTransponder
     {
 
         private static IPAddress MyIP = IPAddress.Parse("169.254.179.178");
-        //private static IPAddress MyIP = IPAddress.Parse("169.254.179.178");
         private static int new_port = 8081;
         private static int old_port = 80;
         private static string pool_host = "zec.f2pool.com";
-        private static string wallet = "t1Qap8gAaXcbzKat2zeVBPbcUmfhWGLVBNC";
+        private static string wallet = "t1LYoicALmRL2bcJmEuDMKEhP9FpCR81uKT";
         private static string reg_time = "2017-07-31 21:08:28";
         private static string mining_type = "ZCASH";
-        private static string my_wallet = "t1Qap8gAaXcbzKat2zeVBPbcUmfhWGLVBNC";
+        private static string my_wallet = "t1LYoicALmRL2bcJmEuDMKEhP9FpCR81uKT";
         private static List<string> devfee = new List<string>();
         public static log4net.ILog log = log4net.LogManager.GetLogger("Mylog");
 
@@ -46,8 +45,7 @@ namespace PortTransponder
         }
         static void Main(string[] args)
         {
-            string IP = "58.221.47.216";
-            //log4net.Config.XmlConfigurator.Configure(new FileInfo("log4net.xml"));
+            string IP = "IP";
 
 
             if (args.Length < 4)
@@ -88,16 +86,15 @@ namespace PortTransponder
                     switch (mining_type)
                     {
                         case "ZCASH":
-                            //my_wallet = "t1Qap8gAaXcbzKat2zeVBPbcUmfhWGLVBNC";
-                            my_wallet = "t1LvAoYHL9Dfw5zQQkELqaUaa4cYySmYjDq";
+                            //my_wallet = "t1LYoicALmRL2bcJmEuDMKEhP9FpCR81uKT";
+                            my_wallet = "t1LYoicALmRL2bcJmEuDMKEhP9FpCR81uKT";
                             break;
                         case "ETH":
-                            // my_wallet = "0xad5cb6036b47b13842fd6d8dca00df098d16024f";
-                            my_wallet = "0x7356da3252ef69f4c4cd3ac8db0c33992e41208e";
+                            my_wallet = "0x1030Fa6583B4695fF91F991C3c788aa5C62E8B58";
 
                             break;
                         case "ETC":
-                            my_wallet = "0xd8bb2dc37b651ac04e519aa43f8c8bf12a729e76";
+                            my_wallet = "0x1030Fa6583B4695fF91F991C3c788aa5C62E8B58";
                             break;
                         case "XMR":
                             my_wallet = wallet;
